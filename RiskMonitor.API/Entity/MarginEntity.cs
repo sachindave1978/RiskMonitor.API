@@ -13,5 +13,6 @@ namespace RiskMonitor.Entity
         public double TotalRevenue { get; set; }
         public double TotalExpenses { get; set; }
         public double NetIncome { get; set; }
+        public double MarginPercent { get; set; }
     }
 }

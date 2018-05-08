@@ -16,6 +16,7 @@ namespace RiskMonitor.MockData
             item.TotalRevenue = 211125.2;
             item.TotalExpenses = 2120.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
@@ -24,13 +25,15 @@ namespace RiskMonitor.MockData
             item.TotalRevenue = 221128.2;
             item.TotalExpenses = 2218.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
             item.sampleDate = temp.AddDays(-4);
-            item.TotalRevenue = 231148.2;
+            item.TotalRevenue = 2311480.2;
             item.TotalExpenses = 2302.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
@@ -38,6 +41,7 @@ namespace RiskMonitor.MockData
             item.TotalRevenue = 241149.2;
             item.TotalExpenses = 2100.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
@@ -45,6 +49,7 @@ namespace RiskMonitor.MockData
             item.TotalRevenue = 251168.2;
             item.TotalExpenses = 2100.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
@@ -52,6 +57,7 @@ namespace RiskMonitor.MockData
             item.TotalRevenue = 241155.2;
             item.TotalExpenses = 2102.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
@@ -59,6 +65,7 @@ namespace RiskMonitor.MockData
             item.TotalRevenue = 251170.2;
             item.TotalExpenses = 2198.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
@@ -66,6 +73,7 @@ namespace RiskMonitor.MockData
             item.TotalRevenue = 261170.2;
             item.TotalExpenses = 2098.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
@@ -73,6 +81,7 @@ namespace RiskMonitor.MockData
             item.TotalRevenue = 271123.2;
             item.TotalExpenses = 2102.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
@@ -80,6 +89,7 @@ namespace RiskMonitor.MockData
             item.TotalRevenue = 261111.2;
             item.TotalExpenses = 2092.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
@@ -87,6 +97,7 @@ namespace RiskMonitor.MockData
             item.TotalRevenue = 271198.2;
             item.TotalExpenses = 1976.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
@@ -94,27 +105,31 @@ namespace RiskMonitor.MockData
             item.TotalRevenue = 271190.2;
             item.TotalExpenses = 1768.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
             item.sampleDate = temp.AddDays(-34);
-            item.TotalRevenue = 281190.2;
+            item.TotalRevenue = 2811900.2;
             item.TotalExpenses = 1768.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
             item.sampleDate = temp.AddDays(-37);
-            item.TotalRevenue = 271190.2;
+            item.TotalRevenue = 2711900.2;
             item.TotalExpenses = 1868.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
             item.sampleDate = temp.AddDays(-40);
-            item.TotalRevenue = 281190.2;
+            item.TotalRevenue = 2811900.2;
             item.TotalExpenses = 1568.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
@@ -122,6 +137,7 @@ namespace RiskMonitor.MockData
             item.TotalRevenue = 291120.2;
             item.TotalExpenses = 1472.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
@@ -129,6 +145,7 @@ namespace RiskMonitor.MockData
             item.TotalRevenue = 3021128.2;
             item.TotalExpenses = 1674.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             item = new MarginEntity();
@@ -136,6 +153,7 @@ namespace RiskMonitor.MockData
             item.TotalRevenue = 321140.2;
             item.TotalExpenses = 1575.1;
             item.NetIncome = item.TotalRevenue - item.TotalExpenses;
+            item.MarginPercent = (item.NetIncome / item.TotalRevenue);
             objLstMarginEntity.Add(item);
 
             return objLstMarginEntity.AsQueryable();
